@@ -1,0 +1,39 @@
+.navbar_links{
+  align-self: left;
+  display: flex;
+}
+
+.navbar_links>*{
+  padding: 0.5rem;
+}
+
+.navbar_namebutton{
+  font-size: xxx-large;
+  font-weight: 300;
+}
+
+.navbar_links>*:hover{
+  text-decoration: none;
+}
+
+.github_icon>*{
+  width: 30px;
+}
+
+.linkedin_icon>*{
+  width: 30px;
+}
+
+.navbar_icons>*{
+  padding: 0.5rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_icons{
+  padding: 0.8rem;
+  align-self: right;
+}
