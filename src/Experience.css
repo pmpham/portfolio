@@ -1,0 +1,21 @@
+.experience{
+  display: grid;
+  justify-content: center;
+}
+
+.experience_card_info>p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.experience_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.experience_cards>*{
+  margin: 20px;
+}
