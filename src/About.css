@@ -1,3 +1,37 @@
+.about_div{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.picture{
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
 .about_card{
-  width: 360;
+  /* display: flex; */
+  width: 100%;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+.about_card>p{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.about_name>div{
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  font-size: 2rem;
 }

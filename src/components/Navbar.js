@@ -30,20 +30,16 @@ const Navbar = () => {
    </div>
    <div className="navbar_icons">
     <Link onClick={() => window.open("https://github.com/pmpham")}>
-     <IconButton size="small" text={false} rounded={true}>
       <div className="github_icon">
        <img src="./icons/github.png" sizes=""></img>
       </div>
-     </IconButton>
     </Link>
     <Link
      onClick={() => window.open("https://www.linkedin.com/in/peterminhpham/")}
     >
-     <IconButton size="small" text={false} rounded={true}>
       <div className="linkedin_icon">
        <img src="./icons/linkedin.png" sizes=""></img>
       </div>
-     </IconButton>
     </Link>
    </div>
   </div>

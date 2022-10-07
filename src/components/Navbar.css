@@ -1,6 +1,7 @@
 .navbar_links{
   align-self: left;
   display: flex;
+  margin-top: 10px;
 }
 
 .navbar_links>*{
@@ -34,6 +35,7 @@
 }
 
 .navbar_icons{
+  display: flex;
   padding: 0.8rem;
   align-self: right;
 }
