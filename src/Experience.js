@@ -6,11 +6,11 @@ import Exp from "./data/experience.json";
 const Experience = () => {
  return (
   <div>
-   <h2 style={{ textAlign: "center", paddingTop: "60px", fontSize: 40 }}>
+   <h2 style={{ textAlign: "center", fontSize: 40 }}>
     experience
    </h2>
-   <div style={{ display: "flex", justifyContent: "center", paddingTop:20 }}>
-    <Card width={270} elevation={3} style={{padding:10, paddingTop:0}}>
+   <div style={{ display: "flex", justifyContent: "center", paddingTop: 20 }}>
+    <Card width={270} elevation={3} style={{ padding: 10, paddingTop: 0 }}>
      {" "}
      <h2>amazon</h2>{" "}
      <Body2 style={{ color: "#89CFF0" }}>

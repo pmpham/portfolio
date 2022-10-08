@@ -1,0 +1,26 @@
+[{"project": "portfolio","stack":"react, html, css","desc": "a personal wesite displaying all of my experiences, projects and other professional information","repo":"https://github.com/pmpham/portfolio"},
+  {
+    "project": "peters shop",
+    "stack": "react, mongodb, express.js, node.js, redux",
+    "desc": "Developed an online store to display personal items on sale. Created an interactive frontend using React and connected it to the backend using Redux for seamless interaction. Stored all data and products in a MongoDB database for easy access.",
+    "repo": "https://github.com/pmpham/PetersStore"
+  },
+  {
+    "project": "flockdepot bot",
+    "stack": "python, mobgodb, pytextnow, discordpy",
+    "desc": "Developed a Discord bot to assist a sneaker reselling server in forwarding announcements via SMS to our members. Created a verification process to input phone numbers into a MongoDB database. Used PYTextNow to send SMS announcements to every phone number in the database with methods to clear out numbers if they are invalid.",
+    "repo": "https://github.com/pmpham/FlockDepot"
+  },
+  {
+    "project": "wordle helper",
+    "stack": "python",
+    "desc": "Developed a program to help a user complete wordle puzzles more efficiently. Went through multiple iterations of data entry and finalized the most straightforward method that only required the terminal. Currently working on using data information to have the bot recommend the best words to guess.",
+    "repo": "https://github.com/pmpham/wordle-helper"
+  },
+  {
+    "project": "dungeon crawler",
+    "stack": "java",
+    "desc": "Created a short dungeon crawler game in Java all controlled through the terminal. Used many forms of Java techniques such as inheritance to create different types of enemies for the enemy to fight. Also used singletons to effectively cycle through 3 maps repeatedly.",
+    "repo": "https://github.com/pmpham/CECS277Project"
+  }
+]

@@ -18,17 +18,17 @@ const Navbar = () => {
       About
      </Button>
     </Link>
-    <Link to="experience" smooth={true}>
+    <Link to="experience" smooth={true} offset={-40}>
      <Button rounded={true}>Experience</Button>
     </Link>
-    <Link to="projects" smooth={true} offset={-65}>
+    <Link to="projects" smooth={true} offset={-40}>
      <Button rounded={true}>Projects</Button>
     </Link>
     <Link
      to="resume"
      onClick={() =>
       window.open(
-       "https://docs.google.com/document/d/1L3-4cyQOSWq54dMzx7wBvf_QYLFukrYl-gZOf5jfXZo/edit?usp=sharing"
+       "https://drive.google.com/file/d/1DFOVl4Jt7ZBOqX6t8NBCRSUu-ivrY500/view?usp=sharing"
       )
      }
     >

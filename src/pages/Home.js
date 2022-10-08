@@ -3,6 +3,7 @@ import About from "../About";
 import Experience from "../Experience";
 import Navbar from "../components/Navbar";
 import "./Home.css"
+import Projects from "../Projects";
 
 const Home = () => {
  return (
@@ -12,7 +13,12 @@ const Home = () => {
      <About />
     </section>
     <section id="experience" >
+      <div style={{paddingTop:60}}></div>
      <Experience />
+    </section>
+    <section id="projects" >
+    <div style={{paddingTop:60}}></div>
+     <Projects />
     </section>
    </div>
   </div>
