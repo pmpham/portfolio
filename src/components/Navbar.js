@@ -34,9 +34,7 @@ const Navbar = () => {
     >
      <Button rounded={true}>Resume</Button>
     </Link>
-    
-   </div>
-   <div className="navbar_icons">
+    {/* <div className="navbar_icons">
     <Link onClick={() => window.open("https://github.com/pmpham")}>
      <div className="github_icon">
       <img src="./icons/github.png" alt="github icon" sizes=""></img>
@@ -49,6 +47,7 @@ const Navbar = () => {
       <img src="./icons/linkedin.png" alt="linkedin icon" sizes=""></img>
      </div>
     </Link>
+   </div> */}
    </div>
   </div>
  );

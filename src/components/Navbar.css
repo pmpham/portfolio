@@ -1,6 +1,6 @@
 .navbar{
   display: flex;
-  justify-content: space-between;
+
   background-color: #e4ebf5;
   position: fixed;
   width: 100%;
@@ -9,15 +9,13 @@
   flex-wrap: wrap;
 }
 
-.navbar_links>a>div{
-  align-self: center;
-}
 .navbar_links{
   align-self: left;
   display: flex;
   margin-top: 10px;
   flex-wrap: wrap;
   justify-self: center;
+  padding-bottom: 10px;
   justify-content: center;
 }
 
@@ -52,7 +50,7 @@
   display: flex;
   align-self: right;
   padding-top: 5px;
-  justify-content: center;
+  justify-self: right;
 }
 
 @media (max-width:492px) {

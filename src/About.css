@@ -7,6 +7,10 @@
   flex-wrap: wrap;
 }
 
+.navbar_icons{
+  flex-direction: column;
+}
+
 .picture{
   height: 200px;
   border-radius: 10px;
@@ -38,4 +42,10 @@
 .name{
   font-size: 2rem;
   padding-left: 10px;
+}
+
+@media (max-width:442px) {
+  .navbar_icons{
+    flex-direction: row;
+  }
 }
