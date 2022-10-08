@@ -9,6 +9,18 @@ body {
   padding-top: 70px;
 }
 
+@media (max-width:492px) {
+  body{
+    padding-top: 100px;
+  }
+}
+
+@media (max-width:400px) {
+  body{
+    padding-top: 147px;
+  }
+  
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -6,16 +6,25 @@
   width: 100%;
   z-index: 50;
   top: 0;
+  flex-wrap: wrap;
 }
 
+.navbar_links>a>div{
+  align-self: center;
+}
 .navbar_links{
   align-self: left;
   display: flex;
   margin-top: 10px;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: center;
 }
 
 .navbar_links>*{
-  padding: 0.5rem;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  
 }
 
 .navbar_namebutton{
@@ -41,6 +50,19 @@
 
 .navbar_icons{
   display: flex;
-  padding: 0.8rem;
   align-self: right;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+@media (max-width:492px) {
+  .navbar{
+    justify-content: center;
+  }
+}
+
+@media (max-width:400px) {
+  .navbar_links>*{
+    padding:2.5px;
+  }
 }

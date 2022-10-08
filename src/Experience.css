@@ -16,6 +16,7 @@
   grid-template-columns: repeat(3,1fr);
   position: relative;
   max-width: 960px;
+  flex-wrap: wrap;
 }
 .experience_cards>*{
   margin: 20px;
