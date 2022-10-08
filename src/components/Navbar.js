@@ -39,14 +39,14 @@ const Navbar = () => {
    <div className="navbar_icons">
     <Link onClick={() => window.open("https://github.com/pmpham")}>
      <div className="github_icon">
-      <img src="./icons/github.png" sizes=""></img>
+      <img src="./icons/github.png" alt="github icon" sizes=""></img>
      </div>
     </Link>
     <Link
      onClick={() => window.open("https://www.linkedin.com/in/peterminhpham/")}
     >
      <div className="linkedin_icon">
-      <img src="./icons/linkedin.png" sizes=""></img>
+      <img src="./icons/linkedin.png" alt="linkedin icon" sizes=""></img>
      </div>
     </Link>
    </div>
