@@ -1,7 +1,7 @@
 import React from "react";
-import { Button, IconButton, Fab } from "ui-neumorphism";
+import { Link } from "react-scroll";
+import { Button } from "ui-neumorphism";
 import "ui-neumorphism/dist/index.css";
-import { Link, ScrollLink } from "react-scroll";
 import "./Navbar.css";
 
 const Navbar = () => {

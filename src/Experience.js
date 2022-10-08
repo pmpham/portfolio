@@ -1,7 +1,7 @@
 import React from "react";
-import "./Experience.css";
-import { Body1, Body2, Card, CardHeader, H1, H2 } from "ui-neumorphism";
+import { Body2, Card } from "ui-neumorphism";
 import Exp from "./data/experience.json";
+import "./Experience.css";
 
 const Experience = () => {
  return (

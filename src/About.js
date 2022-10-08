@@ -1,10 +1,6 @@
 import React from "react";
 import {
- Card,
- CardHeader,
- CardContent,
- CardMedia,
- Body2,
+  Body2, Card
 } from "ui-neumorphism";
 import "./About.css";
 import Desc from "./data/about.json";

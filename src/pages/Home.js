@@ -1,9 +1,8 @@
 import React from "react";
 import About from "../About";
 import Experience from "../Experience";
-import Navbar from "../components/Navbar";
-import "./Home.css"
 import Projects from "../Projects";
+import "./Home.css";
 
 const Home = () => {
  return (
