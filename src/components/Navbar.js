@@ -8,13 +8,15 @@ const Navbar = () => {
  return (
   <div className="navbar">
    <div className="navbar_links">
-    <Link to="about" smooth={true}>
-     <Button rounded={true}>About</Button>
+    <Link smooth={true}>
+     <Button rounded={true} onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }}>About</Button>
     </Link>
-    <Link to="experience" smooth={true}>
+    <Link to="experience" smooth={true} offset={-65}>
      <Button rounded={true}>Experience</Button>
     </Link>
-    <Link to="projects" smooth={true}>
+    <Link to="projects" smooth={true} offset={-65}>
      <Button rounded={true}>Projects</Button>
     </Link>
     <Link

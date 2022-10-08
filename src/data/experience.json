@@ -1,14 +1,20 @@
-[{
-  "company": "Mathnasium",
-  "position":"Math Instructor",
-  "tenure": "june 2021 - present",
-  "responsibilities":"-Responsible for teaching students of various skills and ages math from pre-k level to precalculus through interactive modes\n-Designed personalized lesson plans for individual students to reinforce strengths and corroborate weakness\n-Provided test and homework support for students in need"
-
-},
-{
-  "company": "Mathnasium",
-  "position":"Math Instructor",
-  "tenure": "june 2021 - present",
-  "responsibilities":"-Responsible for teaching students of various skills and ages math from pre-k level to precalculus through interactive modes\n-Designed personalized lesson plans for individual students to reinforce strengths and corroborate weakness\n-Provided test and homework support for students in need"
-
-}]
+[
+  {
+    "company": "714heat",
+    "position": "business owner",
+    "tenure": "aug 2017 - present",
+    "responsibilities": "- responsible for the consistent purchase of shoes and high-end clothing for the business’s inventory\n- collaborated with other businesses to provide inventory for an in-person popup store\n- identified inventory and marketed to potential clients\n- facilitated over $75,000 in total sales"
+  },
+  {
+    "company": "mathnasium",
+    "position": "math instructor",
+    "tenure": "june 2021 - present",
+    "responsibilities": "- responsible for teaching students of various skills and ages math from pre-k level to precalculus through interactive modes\n- designed personalized lesson plans for individual students to reinforce strengths and corroborate weakness\n- provided test and homework support for students in need"
+  },
+  {
+    "company": "cinemark",
+    "position": "various positions",
+    "tenure": "may 2021 - present",
+    "responsibilities": "- performed in a constant high pace environment\n- managed thousands of dollars in transactions daily\n- provided customers with assistance\n- emphasized cleanliness with routine cleanings"
+  }
+]

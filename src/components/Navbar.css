@@ -1,3 +1,13 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4ebf5;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  top: 0;
+}
+
 .navbar_links{
   align-self: left;
   display: flex;
@@ -27,11 +37,6 @@
 
 .navbar_icons>*{
   padding: 0.5rem;
-}
-
-.navbar{
-  display: flex;
-  justify-content: space-between;
 }
 
 .navbar_icons{

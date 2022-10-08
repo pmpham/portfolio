@@ -14,9 +14,9 @@ const About = () => {
   <div className="about_div">
    <img className="picture" src="peter.png"></img>
    <Card className="about_card" inset={true} maxWidth={360}>
-    <h3 className="name">Peter Pham</h3>
+    <h3 className="name">peter pham</h3>
     {Desc.map((desc) => {
-     return <Body2>{desc.desc}</Body2>;
+     return <Body2>{desc.desc}<br/><br/>contact me at peterphambusiness@gmail.com</Body2>;
     })}
    </Card>
   </div>

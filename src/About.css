@@ -25,13 +25,16 @@
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .about_name>div{
   display: flex;
   justify-content: center;
+
 }
 
 .name{
   font-size: 2rem;
+  padding-left: 10px;
 }

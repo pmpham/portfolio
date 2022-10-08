@@ -1,21 +1,38 @@
 .experience{
-  display: grid;
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-items: center;
   justify-content: center;
+  justify-self: center;
 }
 
-.experience_card_info>p{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
+.experience_card_info{
+  padding:10px;}
 
 .experience_cards{
-  display: flex;
-  justify-content: center;
+  display: grid;
   align-items: center;
+  grid-template-columns: repeat(3,1fr);
+  position: relative;
+  max-width: 960px;
+}
+.experience_cards>*{
+  margin: 20px;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
 }
 
 
-.experience_cards>*{
-  margin: 20px;
+@media (max-width: 960px){
+  .experience_cards{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 630px){
+  .experience_cards{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
