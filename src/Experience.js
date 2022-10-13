@@ -10,7 +10,7 @@ const Experience = () => {
     experience
    </h2>
    <div style={{ display: "flex", justifyContent: "center", paddingTop: 20 }}>
-    <Card width={270} elevation={3} style={{ padding: 10, paddingTop: 0 }}>
+    <Card width={270} elevation={3} style={{ padding: 10, paddingTop: 0, margin:10, marginTop:0 }}>
      {" "}
      <h2>amazon</h2>{" "}
      <Body2 style={{ color: "#89CFF0" }}>
@@ -24,7 +24,7 @@ const Experience = () => {
     <div className="experience_cards">
      {Exp.map((exp) => {
       return (
-       <Card maxWidth={360} elevation={3}>
+       <Card maxWidth={300} elevation={3}>
         <div className="experience_card_info">
          <h2>{exp.company}</h2>
          <Body2 style={{ color: "#89CFF0" }}>

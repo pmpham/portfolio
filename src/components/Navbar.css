@@ -56,6 +56,11 @@
 @media (max-width:492px) {
   .navbar{
     justify-content: center;
+    position: absolute;
+  }
+
+  .about_button{
+    display: none;
   }
 }
 

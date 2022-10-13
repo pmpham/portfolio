@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="project_cards">
      {Proj.map((proj) => {
       return (
-       <Card maxWidth={360} elevation={3}>
+       <Card maxWidth={300} elevation={3}>
         <div className="project_card_info">
          <h2>{proj.project}</h2>
          <Body2 style={{ color: "#89CFF0" }}>{proj.stack}</Body2>

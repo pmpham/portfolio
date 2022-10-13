@@ -8,7 +8,7 @@ const Navbar = () => {
  return (
   <div className="navbar">
    <div className="navbar_links">
-    <Link smooth={true}>
+    <Link className="about_button" smooth={true}>
      <Button
       rounded={true}
       onClick={() => {
@@ -18,10 +18,10 @@ const Navbar = () => {
       About
      </Button>
     </Link>
-    <Link to="experience" smooth={true} offset={-40}>
+    <Link to="experience" smooth={true} /* offset={-40} */>
      <Button rounded={true}>Experience</Button>
     </Link>
-    <Link to="projects" smooth={true} offset={-40}>
+    <Link to="projects" smooth={true} /* offset={-40} */>
      <Button rounded={true}>Projects</Button>
     </Link>
     <Link
