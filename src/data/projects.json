@@ -1,4 +1,10 @@
-[{"project": "portfolio","stack":"react, html, css","desc": "a personal wesite displaying all of my experiences, projects and other professional information","repo":"https://github.com/pmpham/portfolio"},
+[{
+    "project": "keyhook database",
+    "stack": "python, sqlalchemy, mongodb",
+    "desc": "Created a robust database in both SQL and mongoDB that included room keys, employees, and who the keys were assigned to. Created a simple terminal based interface to manage the backend of the databases. Allowed employees to request keys to specific rooms along with other actions.",
+    "repo": ""
+  },
+{"project": "portfolio","stack":"react, html, css","desc": "a personal wesite displaying all of my experiences, projects and other professional information","repo":"https://github.com/pmpham/portfolio"},
   {
     "project": "peters shop",
     "stack": "react, mongodb, express.js, node.js, redux",
@@ -23,4 +29,5 @@
     "desc": "Created a short dungeon crawler game in Java all controlled through the terminal. Used many forms of Java techniques such as inheritance to create different types of enemies for the enemy to fight. Also used singletons to effectively cycle through 3 maps repeatedly.",
     "repo": "https://github.com/pmpham/CECS277Project"
   }
+
 ]
