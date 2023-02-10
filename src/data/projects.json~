@@ -1,7 +1,4 @@
-[{"project": "krispy kreme generator",
-"stack": "python, 2captcha",
-"desc": "basic script to generate free krispy kreme dozen donuts",
-"repo":"https://github.com/pmpham/krispy_kreme_generator"},{
+[{
     "project": "keyhook database",
     "stack": "python, sqlalchemy, mongodb",
     "desc": "Created a robust database in both SQL and mongoDB that included room keys, employees, and who the keys were assigned to. Created a simple terminal based interface to manage the backend of the databases. Allowed employees to request keys to specific rooms along with other actions.",
