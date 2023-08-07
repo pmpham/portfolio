@@ -9,17 +9,6 @@ const Experience = () => {
    <h2 style={{ textAlign: "center", fontSize: 40 }}>
     experience
    </h2>
-   <div style={{ display: "flex", justifyContent: "center", paddingTop: 20 }}>
-    <Card width={270} elevation={3} style={{ padding: 10, paddingTop: 0, margin:10, marginTop:0 }}>
-     {" "}
-     <h2>amazon</h2>{" "}
-     <Body2 style={{ color: "#89CFF0" }}>
-      sde intern
-      <br />
-      upcoming summer 2023
-     </Body2>
-    </Card>
-   </div>
    <div className="experience">
     <div className="experience_cards">
      {Exp.map((exp) => {

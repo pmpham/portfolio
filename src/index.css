@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #e4ebf5;
   padding-top: 80px;
-  padding-bottom: 250px;
+  height: max-content;
 }
 
 @media (max-width:405px) {
