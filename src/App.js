@@ -19,12 +19,6 @@ function App() {
    </BrowserRouter>
   </main>
  );
- /* return (
-    <div className="App">
-      <Navbar/>
-      <Home/>
-    </div>
-  ); */
 }
 
 export default App;

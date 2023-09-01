@@ -1,6 +1,6 @@
 .navbar{
   display: flex;
-
+  justify-content: center;
   background-color: #e4ebf5;
   position: fixed;
   width: 100%;
@@ -10,7 +10,7 @@
 }
 
 .navbar_links{
-  align-self: left;
+  align-self: center;
   display: flex;
   margin-top: 10px;
   flex-wrap: wrap;

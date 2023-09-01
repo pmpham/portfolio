@@ -1,31 +1,32 @@
-[{
-    "company": "amazon",
-    "position": "software development intern",
-    "tenure": "may 2023 - present",
-    "responsibilities": "- engineer idempotent solution for AWS Connect onboarding APIs using Java, AWS DynamoDB, AWS API Gateway, and numerous other AWS services + internal tools\n- develop and pitch design documentation including high-level architecture and low-level design for my implementation to my organization\n- create rigorous tests at the unit, integration, and system levels to ensure the utmost quality and fault tolerance for the APIs"
-  },
-  {
-    "company": "california state university long beach",
-    "position": "instructional assistant",
-    "tenure": "january 2023 - present",
-    "responsibilities": "- assisted the primary professor with an algorithms course with over 80 students\n- built auto-grading tools to analyze student algorithms and assign grades fairly\n- hosted office hours to allow for an open environment for students to ask questions and receive assistance on course material\n- helped provide insight and assist with assignment creation"
-  },
-  {
-    "company": "714heat",
-    "position": "business owner",
-    "tenure": "aug 2017 - present",
-    "responsibilities": "- soordinated the consistent purchase of shoes and high-end clothing for the business’s inventory\n- managed a brick-and-mortar store alongside a community of 100+ passionate members\n- provided bulk inventory for large consignment stores\n- preformed market analysis to make information-backed and rational investments\n- facilitated over $500,000 in total sales through the use of various social media marketing techniques"
-  },
-  {
-    "company": "mathnasium",
-    "position": "math instructor",
-    "tenure": "june 2021 - april 2023",
-    "responsibilities": "- educated students of various skills and ages from pre-k level to precalculus through interactive modes\n- designed personalized lesson plans for individual students to reinforce strengths and corroborate weaknesses\n- provided test and homework support for students in need"
-  },
-  {
-    "company": "cinemark",
-    "position": "various positions",
-    "tenure": "may 2021 - may 2023",
-    "responsibilities": "- performed in a constant high pace environment\n- managed thousands of dollars in transactions daily\n- provided customers with assistance\n- emphasized cleanliness with routine cleanings"
-  }
+[
+    {
+        "company": "amazon",
+        "position": "software development intern",
+        "tenure": "may 2023 - present",
+        "responsibilities": "- engineered infrastructure for AWS Connect onboarding APIs using Java, AWS DynamoDB, AWS API Gateway, and numerous other AWS services + internal tools\n- developed and pitched design documentation including high-level architecture and low-level design for my implementation to my organization\n- created rigorous tests at the unit, integration, and system levels to ensure the utmost quality and fault tolerance for the APIs"
+    },
+    {
+        "company": "california state university long beach",
+        "position": "instructional assistant",
+        "tenure": "january 2023 - present",
+        "responsibilities": "- assisted the primary professor with an algorithms course with over 80 students\n- built auto-grading tools to analyze student algorithms and assign grades fairly\n- hosted office hours to allow for an open environment for students to ask questions and receive assistance on course material\n- helped provide insight and assist with assignment creation"
+    },
+    {
+        "company": "714heat",
+        "position": "business owner",
+        "tenure": "aug 2017 - present",
+        "responsibilities": "- coordinated the consistent purchase of shoes and high-end clothing for the business’s inventory\n- managed a brick-and-mortar store alongside a community of 100+ passionate members\n- provided bulk inventory for large consignment stores\n- preformed market analysis to make information-backed and rational investments\n- facilitated over $500,000 in total sales through the use of various social media marketing techniques"
+    },
+    {
+        "company": "mathnasium",
+        "position": "math instructor",
+        "tenure": "june 2021 - april 2023",
+        "responsibilities": "- educated students of various skills and ages from pre-k level to precalculus through interactive modes\n- designed personalized lesson plans for individual students to reinforce strengths and corroborate weaknesses\n- provided test and homework support for students in need"
+    },
+    {
+        "company": "cinemark",
+        "position": "various positions",
+        "tenure": "may 2021 - may 2023",
+        "responsibilities": "- performed in a constant high pace environment\n- managed thousands of dollars in transactions daily\n- provided customers with assistance\n- emphasized cleanliness with routine cleanings"
+    }
 ]
