@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 
 const Projects = () => {
  return (
-  <div>
-   <h2 style={{ textAlign: "center", fontSize: 40 }}>projects</h2>
+  <div style={{height:"100%", minHeight:"100vh"}}>
+   <h2 style={{ textAlign: "center", fontSize: 40}}>projects</h2>
    <div className="projects">
     <div className="project_cards">
      {Proj.map((proj) => {

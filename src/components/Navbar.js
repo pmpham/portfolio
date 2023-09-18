@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
  return (
-  <div className="navbar">
+  <div className="navbar" style={{position:"sticky"}}>
    <div className="navbar_links">
     <Link className="about_button" smooth={true}>
      <Button
@@ -28,7 +28,7 @@ const Navbar = () => {
      to="resume"
      onClick={() =>
       window.open(
-       "https://drive.google.com/file/d/1DFOVl4Jt7ZBOqX6t8NBCRSUu-ivrY500/view?usp=sharing"
+       "https://drive.google.com/file/d/1RR0m4S1bvSELNgHe6KFy1aB0AlBvDo7h/view?usp=sharing"
       )
      }
     >

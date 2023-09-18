@@ -2,5 +2,9 @@
   text-align: center;
   background-color: #e4ebf5;
   background: #e4ebf5;
-  padding-bottom: 100px;
+}
+
+.Navbar{
+    position: sticky;
+    top: 0
 }
