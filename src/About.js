@@ -13,7 +13,7 @@ const About = () => {
    <Card className="about_card" inset={true} maxWidth={360}>
     <h3 className="name">peter pham</h3>
     {Desc.map((desc) => {
-     return <Body2>{desc.desc}<br/><br/>contact me at peterphambusiness@gmail.com</Body2>;
+     return (<><Body2 style={{textAlign:"left"}}>{desc.desc}</Body2><Body2 style={{justifyContent:"left"}}>{desc.contact}</Body2></>);
     })}
    </Card>
    <Card className="social_links" inset={true} style={{margin:5}}>
