@@ -11,13 +11,6 @@ body {
 
 }
 
-@media (max-width:405px) {
-  body{
-    padding-top: 100px;
-
-  }
-  
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
