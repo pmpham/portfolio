@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { Button } from "ui-neumorphism";
 import "ui-neumorphism/dist/index.css";
 import "./Navbar.css";
+import Pdf from '../data/PeterPhamResumePublic.pdf'
 
 const Navbar = () => {
  return (
@@ -24,13 +25,7 @@ const Navbar = () => {
     <Link to="projects" smooth={true} /* offset={-40} */>
      <Button rounded={true}>Projects</Button>
     </Link>
-    <Link
-     to="resume"
-     onClick={() =>
-      window.open(
-       "https://drive.google.com/file/d/1RR0m4S1bvSELNgHe6KFy1aB0AlBvDo7h/view?usp=sharing"
-      )
-     }
+    <Link onClick={() => window.open(Pdf)}
     >
      <Button rounded={true}>Resume</Button>
     </Link>

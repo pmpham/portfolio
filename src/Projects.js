@@ -29,7 +29,7 @@ const Projects = () => {
          </p>
          <Link onClick={() => window.open(proj.repo)}>
           <Button rounded={true} style={{ marginTop: 10 }}>
-           Repo
+           Link
           </Button>
          </Link>
         </div>

@@ -12,11 +12,11 @@ const Home = () => {
      <About />
     </section>
     <section id="experience" >
-      <div style={{paddingTop:60}}></div>
+      <div style={{paddingTop:40}}></div>
      <Experience />
     </section>
     <section id="projects" >
-    <div style={{paddingTop:60}}></div>
+    <div style={{paddingTop:40}}></div>
      <Projects />
     </section>
    </div>
