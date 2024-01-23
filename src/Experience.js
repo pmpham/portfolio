@@ -6,14 +6,14 @@ import "./Experience.css";
 const Experience = () => {
  return (
   <div>
-   <h2 style={{ textAlign: "center", fontSize: 40 }}>
+   <h2 style={{ textAlign: "center", fontSize: 40, color: "white" }}>
     experience
    </h2>
    <div className="experience">
     <div className="experience_cards">
      {Exp.map((exp) => {
       return (
-       <Card maxWidth={300} elevation={3}>
+       <Card dark={true} maxWidth={300} elevation={3}>
         <div className="experience_card_info">
          <h2>{exp.company}</h2>
          <Body2 style={{ color: "#89CFF0" }}>

@@ -11,6 +11,7 @@ const Navbar = () => {
    <div className="navbar_links">
     <Link className="about_button" smooth={true}>
      <Button
+    dark={true}
       rounded={true}
       onClick={() => {
        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -20,14 +21,14 @@ const Navbar = () => {
      </Button>
     </Link>
     <Link to="experience" smooth={true} /* offset={-40} */>
-     <Button rounded={true}>Experience</Button>
+     <Button dark={true} rounded={true}>Experience</Button>
     </Link>
     <Link to="projects" smooth={true} /* offset={-40} */>
-     <Button rounded={true}>Projects</Button>
+     <Button dark={true} rounded={true}>Projects</Button>
     </Link>
     <Link onClick={() => window.open(Pdf)}
     >
-     <Button rounded={true}>Resume</Button>
+     <Button dark={true} rounded={true}>Resume</Button>
     </Link>
     {/* <div className="navbar_icons">
     <Link onClick={() => window.open("https://github.com/pmpham")}>

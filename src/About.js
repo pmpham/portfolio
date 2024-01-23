@@ -10,13 +10,13 @@ const About = () => {
  return (
   <div className="about_div">
    <img className="picture" src="peter.png" alt="my sexy face" style={{padding:5}}></img>
-   <Card className="about_card" inset={true} maxWidth={360}>
+   <Card dark={true} className="about_card" inset={true} maxWidth={360}>
     <h3 className="name">peter pham</h3>
     {Desc.map((desc) => {
-     return (<><Body2 style={{textAlign:"left"}}>{desc.desc}</Body2><Body2 style={{justifyContent:"left"}}>{desc.contact}</Body2></>);
+     return (<><Body2 style={{textAlign:"left", color: "white"}}>{desc.desc}</Body2><Body2 style={{justifyContent:"left", color: "white"}}>{desc.contact}</Body2></>);
     })}
    </Card>
-   <Card className="social_links" inset={true} style={{margin:5}}>
+   <Card dark={true} className="social_links" inset={true} style={{margin:5}}>
    <div className="navbar_icons">
     <Link onClick={() => window.open("https://github.com/pmpham")}>
      <div className="github_icon">
