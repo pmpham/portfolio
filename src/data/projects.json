@@ -1,27 +1,15 @@
 [
     {
         "project": "quickify",
-        "stack": "javascript, node,js, express.js, react.js, firebase, socket.io, spotify API)",
+        "stack": "javascript, node,js, express.js, react.js, firebase, socket.io, spotify API",
         "desc": "Spearheaded the design and development of Quickify, a dynamic full-stack web application facilitating collaborative music exploration. Crafted a distinctive and interactive user interface using Figma. Engineered the backend with Spotify authentication for seamless login, Socket.io for real-time listening rooms and chat functionality, and FireStore for efficient data storage. Employed React.js, Material-UI, and Tailwind for frontend development, while leveraging the Spotify API to manage the music player and curate song recommendations.",
         "repo": "https://github.com/pmpham/QuickifyPublic"
     },
     {
-        "project": "krispy kreme generator",
-        "stack": "python, 2captcha, selenium",
-        "desc": "Created a script to generate Krispy Kreme accounts for free donuts.",
-        "repo": "https://github.com/pmpham/krispy_kreme_generator"
-    },
-    {
-        "project": "keyhook database",
-        "stack": "python, sqlalchemy, mongodb",
-        "desc": "Created a robust database in both SQL and mongoDB that included room keys, employees, and who the keys were assigned to. Created a simple terminal based interface to manage the backend of the databases. Allowed employees to request keys to specific rooms along with other actions.",
-        "repo": ""
-    },
-    {
-        "project": "portfolio",
-        "stack": "react, html, css",
-        "desc": "a personal wesite displaying all of my experiences, projects and other professional information",
-        "repo": "https://github.com/pmpham/portfolio"
+        "project": "flockdepot bot",
+        "stack": "python, mobgodb, pytextnow, discordpy",
+        "desc": "Engineered a robust Discord bot for a sneaker reselling server, enhancing communication by forwarding announcements via SMS through TextNow to members. Implemented a streamlined user verification process and devised methods to purge outdated or invalid phone numbers. Utilized Discord.py for Discord bot development, MongoDB for data management, and PYTextNow for mass SMS announcements during high-demand sneaker releases.",
+        "repo": "https://github.com/pmpham/FlockDepot"
     },
     {
         "project": "peters shop",
@@ -30,10 +18,22 @@
         "repo": "https://github.com/pmpham/PetersStore"
     },
     {
-        "project": "flockdepot bot",
-        "stack": "python, mobgodb, pytextnow, discordpy",
-        "desc": "Engineered a robust Discord bot for a sneaker reselling server, enhancing communication by forwarding announcements via SMS through TextNow to members. Implemented a streamlined user verification process and devised methods to purge outdated or invalid phone numbers. Utilized Discord.py for Discord bot development, MongoDB for data management, and PYTextNow for mass SMS announcements during high-demand sneaker releases.",
-        "repo": "https://github.com/pmpham/FlockDepot"
+        "project": "keyhook database",
+        "stack": "python, sqlalchemy, mongodb",
+        "desc": "Created a robust database in both SQL and mongoDB that included room keys, employees, and who the keys were assigned to. Created a simple terminal based interface to manage the backend of the databases. Allowed employees to request keys to specific rooms along with other actions.",
+        "repo": ""
+    },
+    {
+        "project": "krispy kreme generator",
+        "stack": "python, 2captcha, selenium",
+        "desc": "Created a script to generate Krispy Kreme accounts for free donuts.",
+        "repo": "https://github.com/pmpham/krispy_kreme_generator"
+    },
+    {
+        "project": "portfolio",
+        "stack": "react, html, css",
+        "desc": "a personal wesite displaying all of my experiences, projects and other professional information",
+        "repo": "https://github.com/pmpham/portfolio"
     },
     {
         "project": "wordle helper",
