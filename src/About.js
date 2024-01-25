@@ -9,7 +9,7 @@ import { Component } from "react";
 const About = () => {
 const [size, setSize] = useState(window.matchMedia("(max-width: 492px)").matches)
 useEffect(()=>{
-    window.matchMedia("(max-width: 442px)").addEventListener('change', e=> setSize(e.matches))
+    window.matchMedia("(max-width: 492px)").addEventListener('change', e=> setSize(e.matches))
 })
 
  return (
