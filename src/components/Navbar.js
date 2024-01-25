@@ -26,10 +26,10 @@ useEffect(()=>{
       About
      </Button>
     </Link>)}
-    <Link to="experience" smooth={true} /* offset={-40} */>
+    <Link to="experience" smooth={true} offset={-50}>
      <Button dark={true} rounded={true}>Experience</Button>
     </Link>
-    <Link to="projects" smooth={true} /* offset={-40} */>
+    <Link to="projects" smooth={true} offset={-50}>
      <Button dark={true} rounded={true}>Projects</Button>
     </Link>
     <Link onClick={() => window.open(Pdf)}
