@@ -1,5 +1,3 @@
-
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Experience from "./Experience";
@@ -8,7 +6,7 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
  return (
-  <main>
+  <main style={{textAlign:"left", background:"#444444"}}>
     <Navbar />
    <BrowserRouter>
     <Routes>
