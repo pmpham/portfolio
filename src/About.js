@@ -1,10 +1,9 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, {useEffect, useState } from "react";
 import {
   Body2, Card
 } from "ui-neumorphism";
 import Desc from "./data/about.json";
 import { Link } from "react-scroll";
-import { Component } from "react";
 
 const About = () => {
 const [size, setSize] = useState(window.matchMedia("(max-width: 492px)").matches)

@@ -15,7 +15,7 @@ const Projects = () => {
       >
         <div className="project_cards" style={{display:"flex", justifyContent:"center", maxWidth:960, flexWrap:"wrap"}}>
           {Proj.map((proj) => {
-            {
+            
               return (
                 <Card dark={true} maxWidth={300} elevation={3} style={{margin:10, alignSelf:"center"}}>
                   <div className="project_card_info" style={{ padding: 10 }}>
@@ -55,7 +55,7 @@ const Projects = () => {
                   </div>
                 </Card>
               );
-            }
+            
           })}
         </div>
       </div>
