@@ -1,26 +1,26 @@
 [
     {
         "company": "amazon",
+        "position": "software development engineer",
+        "tenure": "july 2024 - present",
+        "responsibilities": ["- AWS Data Center Systems - InfraMap", "- developing data center monitoring software for aws"]
+    },
+    {
+        "company": "amazon",
         "position": "software development intern",
         "tenure": "may 2023 - august 2023",
-        "responsibilities": "- engineered infrastructure for AWS Connect onboarding APIs using Java, AWS DynamoDB, AWS API Gateway, and numerous other AWS services + internal tools\n- developed and pitched design documentation including high-level architecture and low-level design for my implementation to my organization\n- created rigorous tests at the unit, integration, and system levels to ensure the utmost quality and fault tolerance for the APIs\n- improved API retry latency by over 50% through the deployment of my idempotency changes"
+        "responsibilities": ["- AWS Connect Onboarding","- engineered robust apis for customer control plane operations"]
     },
     {
         "company": "california state university long beach",
         "position": "instructional assistant",
         "tenure": "january 2023 - january 2024",
-        "responsibilities": "- assisted the primary professor with an algorithms course with over 80 students\n- developed auto-grading tools to analyze student algorithms, significantly enhancing accuracy in grading while reducing grading time by over 75%\n- hosted office hours to allow for an open environment for students to ask questions and receive assistance on course material\n- helped provide insight and assist with assignment creation"
+        "responsibilities": ["- developed + graded assignments for cecs 328 (algorithms)"]
     },
     {
         "company": "714heat",
         "position": "founder",
         "tenure": "aug 2017 - present",
-        "responsibilities": "- coordinated the consistent purchase of shoes and high-end clothing for the business's inventory\n- managed a brick-and-mortar consignment store alongside a reselling community of 100+ active members\n- performed market analysis to make information-backed and rational investments\n- facilitated over $500,000 in total sales while maintaining a profit ratio of 30% through the use of various social media marketing techniques"
-    },
-    {
-        "company": "mathnasium",
-        "position": "math instructor",
-        "tenure": "june 2021 - april 2023",
-        "responsibilities": "- educated students of various skills and ages from pre-k level to precalculus through interactive modes\n- designed personalized lesson plans for individual students to reinforce strengths and corroborate weaknesses\n- provided test and homework support for students in need"
+        "responsibilities": ["- connecting clients with limited clothing + sneakers", "- 500k+ rev"]
     }
 ]

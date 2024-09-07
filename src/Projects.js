@@ -17,7 +17,7 @@ const Projects = () => {
           {Proj.map((proj) => {
             
               return (
-                <Card dark={true} maxWidth={300} elevation={3} style={{margin:10, alignSelf:"center"}}>
+                <Card dark={true} maxWidth={400} elevation={3} style={{margin:10, alignSelf:"center"}}>
                   <div className="project_card_info" style={{ padding: 10 }}>
                     <h2>{proj.project}</h2>
                     <Body2 style={{ color: "#89CFF0" }}>{proj.stack}</Body2>
