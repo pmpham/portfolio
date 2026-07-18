@@ -1,22 +1,28 @@
+import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import About from "./About";
 import Experience from "./Experience";
-import Projects from "./Projects";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import resume from "./data/PeterPhamResumePublic.pdf";
 
 function App() {
- return (
-  <main style={{textAlign:"left", background:"#444444"}}>
-    <Navbar />
-   <BrowserRouter>
-    <Routes>
-     <Route exact path="/" element={<Home/>} />
-     <Route path="/experience" element={<Experience/>} />
-     <Route path="/projects" element={<Projects/>} />
-    </Routes>
-   </BrowserRouter>
-  </main>
- );
+  return (
+    <div className="site-shell">
+      <Navbar resume={resume} />
+      <main>
+        <section id="about" className="section hero-section">
+          <About resume={resume} />
+        </section>
+        <section id="experience" className="section">
+          <Experience />
+        </section>
+      </main>
+      <footer className="footer" id="contact">
+        <p className="eyebrow">Contact</p>
+        <p className="contact-email">peterphambusiness [at] gmail [dot] com</p>
+        <span>© {new Date().getFullYear()} Peter Pham</span>
+      </footer>
+    </div>
+  );
 }
 
 export default App;

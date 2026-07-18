@@ -1,26 +1,49 @@
 [
-    {
-        "company": "amazon",
-        "position": "software development engineer",
-        "tenure": "july 2024 - present",
-        "responsibilities": ["- AWS Data Center Systems - InfraMap", "- developing data center monitoring software for aws"]
-    },
-    {
-        "company": "amazon",
-        "position": "software development intern",
-        "tenure": "may 2023 - august 2023",
-        "responsibilities": ["- AWS Connect Onboarding","- engineered robust apis for customer control plane operations"]
-    },
-    {
-        "company": "california state university long beach",
-        "position": "instructional assistant",
-        "tenure": "january 2023 - january 2024",
-        "responsibilities": ["- developed + graded assignments for cecs 328 (algorithms)"]
-    },
-    {
-        "company": "714heat",
-        "position": "founder",
-        "tenure": "aug 2017 - present",
-        "responsibilities": ["- connecting clients with limited clothing + sneakers", "- 500k+ rev"]
-    }
+  {
+    "company": "Amazon",
+    "organization": "Data Center Systems",
+    "roles": [
+      {
+        "title": "Software Development Engineer II",
+        "tenure": "July 2026 - Present"
+      },
+      {
+        "title": "Software Development Engineer I",
+        "tenure": "July 2024 - July 2026"
+      }
+    ],
+    "description": "Led the design and delivery of a production computer-vision platform for data-center operations, reducing associated labor costs by 75%+ and supporting nine-figure revenue recovery."
+  },
+  {
+    "company": "Amazon",
+    "organization": "AWS Connect",
+    "roles": [
+      {
+        "title": "Software Development Engineer Intern",
+        "tenure": "May 2023 - August 2023"
+      }
+    ],
+    "description": "Designed and developed fault-tolerant AWS Connect onboarding APIs, implementing idempotency and supporting infrastructure to reduce retry latency by 50%+."
+  },
+  {
+    "company": "California State University, Long Beach",
+    "organization": "College of Engineering",
+    "roles": [
+      {
+        "title": "Instructional Assistant",
+        "tenure": "January 2023 - January 2024"
+      }
+    ],
+    "description": "Supported an 80+ student algorithms course and built auto-grading tools that reduced grading time by 75%+."
+  },
+  {
+    "company": "714Heat",
+    "roles": [
+      {
+        "title": "Founder",
+        "tenure": "November 2017 - December 2024"
+      }
+    ],
+    "description": "Founded and operated a sneaker and apparel resale business, building a 100+ member community and facilitating $1M+ in sales."
+  }
 ]

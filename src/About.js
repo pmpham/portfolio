@@ -1,57 +1,21 @@
-import React, {useEffect, useState } from "react";
-import {
-  Body2, Card
-} from "ui-neumorphism";
-import Desc from "./data/about.json";
-import { Link } from "react-scroll";
-
-const About = () => {
-const [size, setSize] = useState(window.matchMedia("(max-width: 492px)").matches)
-useEffect(()=>{
-    window.matchMedia("(max-width: 492px)").addEventListener('change', e=> setSize(e.matches))
-})
-
- return (
-  <div className="about_div" style={{display:"flex", width:"100%", alignItems:"center", justifyContent:"center", padding:"10px", flexWrap:"wrap", gap: 10}}>
-   <img className="picture" src="peter.png" alt="my sexy face" style={{padding:5, height: 200, borderRadius: 10}}></img>
-   <Card dark={true} className="about_card" inset={true} maxWidth={360} style={{width:"100%", padding:10, paddingTop:0}}>
-    <h3 className="name" style={{fontSize:"2rem"}}>peter pham</h3>
-    {Desc.map((desc) => {
-     return (<div><Body2 style={{textAlign:"left", color: "white", paddingBottom:10}}>{desc.desc}</Body2><Body2 style={{justifyContent:"left", color: "white"}}>{desc.contact}</Body2></div>);
-    })}
-   </Card>
-   <Card dark={true} className="social_links" inset={true} style={{margin:5, padding:"0.5rem"}}>
-   {!size && (<div className="navbar_icons" style={{display:"flex", flexDirection:"column", gap:10}}>
-    <Link onClick={() => window.open("https://github.com/pmpham")}>
-     <div className="github_icon" style={{width:30}}>
-      <img src="./icons/github.png" alt="github icon" sizes="" width={30}></img>
-     </div>
-    </Link>
-    <Link
-     onClick={() => window.open("https://www.linkedin.com/in/peterminhpham/")}
-    >
-     <div className="linkedin_icon" style={{width:30}}>
-      <img src="./icons/linkedin.png" alt="linkedin icon" sizes="" width={30}></img>
-     </div>
-    </Link>
-   </div>)}
-   {size && (<div className="navbar_icons" style={{display:"flex", flexDirection:"row",gap:10}}>
-    <Link onClick={() => window.open("https://github.com/pmpham")}>
-     <div className="github_icon" style={{width:30}}>
-      <img src="./icons/github.png" alt="github icon" sizes="" width={30}></img>
-     </div>
-    </Link>
-    <Link
-     onClick={() => window.open("https://www.linkedin.com/in/peterminhpham/")}
-    >
-     <div className="linkedin_icon">
-      <img src="./icons/linkedin.png" alt="linkedin icon" sizes="" width={30}></img>
-     </div>
-    </Link>
-   </div>)}
-   </Card>
-  </div>
- );
+const About = ({ resume }) => {
+  return (
+    <div className="hero">
+      <div className="hero-copy">
+        <p className="eyebrow">Software Development Engineer II · AWS</p>
+        <h1>Peter Pham</h1>
+        <p className="hero-intro">Software engineer at AWS Data Center Systems, building cloud infrastructure and computer-vision systems for data-center operations.</p>
+        <div className="hero-actions">
+          <a className="button button-primary" href={resume} target="_blank" rel="noreferrer">View resume</a>
+          <a className="button" href="#contact">Contact</a>
+        </div>
+        <div className="social-links" aria-label="Social links">
+          <a href="https://github.com/pmpham" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/peterminhpham/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default About;
